@@ -1,10 +1,9 @@
-public class Pessoa {
-	String nome, idade, endereco = "R: Java ,501";
+public class Fornecedor extends Pessoa {
+
+	String cnpj;
 
 	public void ImprimeNome() {
-		System.out.println("o nome é:");
-		System.out.println("Endereco: " + endereco);
-
+		System.out.println("O nome do fornecedor é : " + nome + "\n Cnpj: "
+				+ cnpj);
 	}
-
 }
